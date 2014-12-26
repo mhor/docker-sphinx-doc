@@ -5,7 +5,7 @@
 Docker file to use Sphinx doc
 
 ```bash
-docker run --rm -v $(pwd):/srv mhor/docker-sphinx-doc make
+docker run --rm -v $(pwd):/doc mhor/docker-sphinx-doc make
 ```
 
 ## License
